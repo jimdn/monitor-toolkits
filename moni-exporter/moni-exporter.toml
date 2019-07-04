@@ -1,0 +1,10 @@
+# Log configuration
+LogPath            = "/data/log/moni-exporter"
+# 1-FatalLevel 2-ErrorLevel 3-WarnLevel 4-InfoLevel 5-DebugLevel
+LogLevel           = 4
+# IP:Port or :Port
+ListenAddr         = ":9108"
+# Prefix to determine which IP is LanIp
+LanIpPrefix        = [ "9.", "10.", "100.", "172.", "192." ]
+# script for monitoring server base
+SvrMonitorFile     = "../tools/svrmonitor.py"
