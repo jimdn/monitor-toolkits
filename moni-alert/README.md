@@ -10,12 +10,13 @@ moni-alert是一个接收Grafana告警的组件，收到告警后会发送短信
 
 - linux 64bit platform
 - python 2.7
-
+- qcloud SMS AppId and AppKey (see conf/alert.json)
+- phone numbers (see conf/alert.json)
 
 ### How to use
 Copy the whole dir `moni-alert` to your server:
 ```
 # mkdir -p /data/log/moni-alert
 # cd moni-alert/bin
-# nohup python alert.py ../conf/alert.conf >> /data/log/moni-alert/nohup.log 2>&1 &
+# nohup python alert.py ../conf/alert.json >> /data/log/moni-alert/nohup.log 2>&1 &
 ```

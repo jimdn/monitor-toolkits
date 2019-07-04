@@ -124,7 +124,7 @@ if __name__ == "__main__":
     reload(sys)
     sys.setdefaultencoding('utf-8')
     # config
-    cfgfile = "../conf/alert.conf"
+    cfgfile = "../conf/alert.json"
     if len(sys.argv) >= 2:
         conf_file = sys.argv[1]
     ParseConfig(cfgfile)
