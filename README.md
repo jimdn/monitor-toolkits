@@ -15,4 +15,4 @@ monitor-toolkits是一套基于[Prometheus](https://github.com/prometheus/promet
 
 
 ### How to use
-See (TODO URL)
+See this [article](https://cloud.tencent.com/developer/article/1458102)
