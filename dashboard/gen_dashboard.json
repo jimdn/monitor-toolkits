@@ -1,7 +1,6 @@
 {
     "GrafanaHostList": [
-        "10.0.0.1:3000",
-        "10.0.0.2:3000"
+        "127.0.0.1:3000"
     ],
     "GrafanaAuthorization": "Bearer AuthorizationKeyGetFromGrafanaWebConfigurationAPIKeys",
     "GrafanaDataSource": "Monitor"
